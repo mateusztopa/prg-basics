@@ -4,10 +4,8 @@ c = input("Enter time format: ")
 
 def time_string(hours, minutes, time_format):
     result = ''
-    hours_str = hours
-    test = time_format
-    if test == 24:
-        result = hours_str + ':' + minutes
+    if time_format == 24:
+        result = hours + ':' + minutes
     elif time_format == 12:
         if hours == 0:
             hours = 12

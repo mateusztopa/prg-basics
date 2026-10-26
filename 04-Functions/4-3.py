@@ -4,8 +4,8 @@
 #
 import math
 a = int(input("Enter a:"))
-c = int(input("Enter b:"))
-a = int(input("Enter c:"))
+b = int(input("Enter b:"))
+c = int(input("Enter c:"))
 
 def triangle_area(a,b,c):
     p = (a + b + c) /2 
